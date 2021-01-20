@@ -1,6 +1,6 @@
 # VR UI Lab
 
-A lab to experiment with 
+A lab to experiment with interactions in VR
 
 Technologies used
 * Unity 3d
