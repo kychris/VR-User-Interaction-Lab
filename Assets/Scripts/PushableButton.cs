@@ -45,7 +45,7 @@ public class PushableButton : MonoBehaviour
             transform.localPosition = Vector3.Lerp(transform.localPosition, buttonUpPosition, Time.deltaTime * smooth);
         }
 
-        //if exceed min height, stay at min height, and trigger OnButtonDown
+        // If exceed min height, stay at min height, and trigger OnButtonDown
         if (transform.localPosition.y < MinLocalY)
         {
             transform.localPosition = buttonDownPosition;

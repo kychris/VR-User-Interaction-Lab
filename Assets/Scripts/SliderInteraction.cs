@@ -7,23 +7,23 @@ public class SliderInteraction : MonoBehaviour
 {
     public TextMeshProUGUI sliderValueText;
 
-	public Slider slider;
+    public Slider slider;
 
-	public void Start()
-	{
-		sliderValueText.text = slider.value.ToString();
+    public void Start()
+    {
+        sliderValueText.text = slider.value.ToString();
 
-		//Adds a listener to the main slider and invokes a method when the value changes.
-		slider.onValueChanged.AddListener(OnSliderValueChanged);
-	}
+        // Adds a listener to the main slider and invokes a method when the value changes.
+        slider.onValueChanged.AddListener(OnSliderValueChanged);
+    }
 
-	public void OnSliderValueChanged(float value)
-	{
-		sliderValueText.text = "Slider Value: " + value;
-	}
+    public void OnSliderValueChanged(float value)
+    {
+        sliderValueText.text = "Slider Value: " + value;
+    }
 
-	
 
-	
+
+
 
 }

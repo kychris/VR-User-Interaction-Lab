@@ -8,15 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/OVR/OVR_Grab.unity
     guid: 577116406a391417f9b60e062fd6ced7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/OVR/OVR_UI.unity
     guid: e4f7053010135419eb580a25fb4d099f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UnityXR/HomeScene.unity
     guid: 66249e54836b48a42acadcc57da3e448
   - enabled: 0
     path: Assets/Scenes/UnityXR/PushableButtons.unity
     guid: 966935c07ec674aceae2af886749559f
+  - enabled: 0
+    path: Assets/Scenes/OVR/OVR_RemoteGrab.unity
+    guid: fdbed76a9f4884454b860212c949a313
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d50d319eb69234467baa8c7607f4c8b1,
       type: 2}

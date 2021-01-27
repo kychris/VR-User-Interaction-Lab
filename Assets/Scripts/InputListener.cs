@@ -16,7 +16,7 @@ public class InputListener : MonoBehaviour
 
     bool isPressed = false;
 
-    //awake will be called even if script is disabled
+    // Awake will be called even if script is disabled
     private void Awake()
     {
         inputDevices = new List<InputDevice>();
